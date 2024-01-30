@@ -26,7 +26,6 @@ run: build
 
 stop: FORCE
 	docker stop $(CL_PROJECT_NAME) || :
-	docker rm $(CL_PROJECT_NAME) || :
 
 log: FORCE
 	docker logs $(CL_PROJECT_NAME)
