@@ -36,7 +36,7 @@ log-follow: FORCE
 
 debug: FORCE
 	docker exec -it $(CL_PROJECT_NAME) \
-		bash -l
+		sh
 
 clean: stop
 
