@@ -23,7 +23,7 @@ run: build stop
 		--workers=3 \
 		--buffers=1 \
 		--persistent \
-		--resolution=1280x720 \
+		--resolution=1280x1440 \
 		--desired-fps=20 \
 		--encoder=HW \
 		--slowdown \
